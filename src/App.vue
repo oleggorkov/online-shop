@@ -1,28 +1,75 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header-component />
+    <main class="main">
+      <div class="main__wrapper">
+        <keep-alive>
+          <router-view />
+        </keep-alive>
+      </div>
+    </main>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import HeaderComponent from './components/header-component';
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
-    HelloWorld
-  }
+    HeaderComponent
+  },
 }
 </script>
 
-<style>
+<style lang="scss">
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
+
+.main {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: flex-start;
+  flex: 1 0 auto;
+
+  padding: 45px 0;
+
+  &__wrapper {
+    width: 100%;
+    height: auto;
+    max-width: 1216px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__heading {
+    width: 100%;
+    height: auto;
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+}
+
+
 </style>

@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "image": "foto-1.jpg",
+      "name": "Футболка",
+      "price": 20,
+      "article": "N1",
+      "category": "Мужские"
+    },
+    {
+      "image": "foto-2.jpg",
+      "name": "Рубашка",
+      "price": 50,
+      "article": "№2",
+      "category": "Женские"
+    },
+    {
+      "image": "foto-3.jpg",
+      "name": "Рюкзак",
+      "price": 120,
+      "article": "№3",
+      "category": "Мужские"
+    },
+    {
+      "image": "foto-4.jpg",
+      "name": "Блузка",
+      "price": 75,
+      "article": "№4",
+      "category": "Женские"
+    },
+    {
+      "image": "foto-6.jpg",
+      "name": "Берет",
+      "price": 27,
+      "article": "№5",
+      "category": "Мужские"
+    },
+    {
+      "image": "foto-20.jpg",
+      "name": "Костюм",
+      "price": 125,
+      "article": "№6",
+      "category": "Женские"
+    },
+    {
+      "image": "foto-7.jpg",
+      "name": "Бриджи",
+      "price": 45,
+      "article": "№7",
+      "category": "Мужские"
+    },
+    {
+      "image": "foto-16.jpg",
+      "name": "Поло",
+      "price": 70,
+      "article": "№8",
+      "category": "Мужские"
+    }
+  ]
+}
